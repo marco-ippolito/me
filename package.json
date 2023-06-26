@@ -1,0 +1,17 @@
+{
+  "name": "marco ippolito",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "^4.0.4",
+    "vite-plugin-ejs": "^1.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

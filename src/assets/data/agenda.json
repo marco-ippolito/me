@@ -1,0 +1,142 @@
+[
+  {
+    "date": "26/01/2023",
+    "conference": "Node.js Global Summit (Senior Track)",
+    "talk": "Lies, Damn Lies, and Benchmark",
+    "flag": "🌐",
+    "trClass": "",
+    "slides": null,
+    "link": "https://events.geekle.us/nodejs2/"
+  },
+  {
+    "date": "28/01/2023",
+    "conference": "Google Developers Group (SJC)",
+    "talk": "It's all about performance",
+    "trClass": "",
+    "flag": "🇧🇷",
+    "slides": null,
+    "link": "https://bit.ly/gdg-sjc"
+  },
+  {
+    "date": "02/03/2023",
+    "conference": "NodeBR - Advanced Node.js",
+    "talk": "It's all about performance",
+    "trClass": "",
+    "flag": "🇧🇷",
+    "slides": null,
+    "link": "https://rsvp.withgoogle.com/events/protototipando-ideias-02mar"
+  },
+  {
+    "date": "24/03/2023",
+    "conference": "OSDay Florence",
+    "talk": "5 Ways you could have hacked Node.js",
+    "trClass": "",
+    "flag": "🇮🇹",
+    "slides": null,
+    "link": "https://2023.osday.dev/"
+  },
+  {
+    "date": "31/03/2023",
+    "conference": "City.js London",
+    "talk": "Maximizing App Efficiency with Clinic.js",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇬🇧",
+    "link": "https://london.cityjsconf.org/"
+  },
+  {
+    "date": "24/04/2023",
+    "conference": "City.js São Paulo",
+    "talk": "5 Ways You Could Have Hacked Node.js",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇧🇷",
+    "link": "https://brazil.cityjsconf.org/"
+  },
+  {
+    "date": "09/05/2023",
+    "conference": "Node.js Collab Summit",
+    "talk": "The State of Node.js Security 2023",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇨🇦",
+    "link": "https://github.com/openjs-foundation/summit/issues/343"
+  },
+  {
+    "date": "11/05/2023",
+    "conference": "OpenJS World 2023",
+    "talk": "Improving the security of a large Open Source project one step at a time",
+    "trClass": "",
+    "private": true,
+    "slides": null,
+    "flag": "🇨🇦",
+    "link": "https://events.linuxfoundation.org/open-source-summit-north-america/"
+  },
+  {
+    "date": "05/06/2023",
+    "conference": "JSNation",
+    "talk": "5 Ways You Could Have Hacked Node.js",
+    "trClass": "",
+    "slides": null,
+    "flag": "🌐",
+    "link": "https://jsnation.com/"
+  },
+  {
+    "date": "15/06/2023",
+    "conference": "TDC Innovation",
+    "talk": "5 Ways You Could Have Hacked Node.js",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇧🇷",
+    "link": "https://thedevconf.com/tdc/2023/innovation/trilha-javascript-e-node-js"
+  },
+  {
+    "date": "22/07/2023",
+    "conference": "NodeBR - Experience",
+    "private": true,
+    "talk": "?",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇧🇷",
+    "link": "https://guild.host/events/nodebr-experience-save-ahnbhi"
+  },
+  {
+    "date": "19/09/2023",
+    "conference": "Open Source Summit Europe",
+    "private": true,
+    "talk": "?",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇪🇸",
+    "link": "https://events.linuxfoundation.org/open-source-summit-europe/"
+  },
+  {
+    "date": "29/09/2023",
+    "conference": "Fastify Meetup",
+    "private": true,
+    "talk": "?",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇮🇹",
+    "link": "https://github.com/orgs/fastify/discussions/3#discussioncomment-6099694"
+  },
+  {
+    "date": "6/11/2023",
+    "conference": "NodeConf EU",
+    "private": true,
+    "talk": "Your First Node.js Contribution",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇮🇪",
+    "link": "https://www.nodeconf.eu/"
+  },
+  {
+    "date": "17/11/2023",
+    "conference": "JSConf Colombia - Final Edition",
+    "talk": "TBD",
+    "trClass": "",
+    "slides": null,
+    "flag": "🇨🇴",
+    "link": "https://jsconf.co/"
+  }
+]
