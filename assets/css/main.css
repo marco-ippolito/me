@@ -1,0 +1,28 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  /* border: 1px solid salmon; */
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+:root {
+  --border: #aaaaaa65 1px solid;
+  --border-radius: 1rem;
+  --primary-color: #1a90ff;
+  --secondary-color: #00c09e;
+}
+
+.font-big {
+  font-size: 4rem;
+  margin: 0;
+  @media screen and (min-width: 1024px) {
+    font-size: 8rem
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 10rem; 
+  }
+}
