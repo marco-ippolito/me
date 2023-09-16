@@ -73,7 +73,6 @@
 
 <script lang="ts" setup>
 import agenda from "~/static/agenda.json";
-import noise from "~/assets/images/noise.svg";
 
 useHead({
   title: "Marco Ippolito - Developer Experience Engineer",
