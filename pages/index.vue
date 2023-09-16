@@ -12,9 +12,9 @@
       </ul>
     </header>
     <section
-      class="container home flex flex-col justify-center px-10 gap-5 lg:gap-10"
+      class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-10"
     >
-      <main class="lg:flex px-10 lg:gap-10">
+      <main class="flex flex-col lg:flex-row px-10 lg:gap-10 ">
         <header class="flex-1">
           <h1 class="name font-big mb-10">
             Marco
@@ -45,7 +45,7 @@
         </div>
         <div class="flex-1 flex items-center justify-center">
           <article
-            class="glass lg:gap-8 gap-4 w-xs lg:w-sm flex items-center flex-col lg:flex-row mt-8"
+            class="glass lg:gap-8 gap-4 max-w-xs lg:w-sm flex items-center flex-col lg:flex-row mt-8"
           >
             <NearformLogo />
             <p>

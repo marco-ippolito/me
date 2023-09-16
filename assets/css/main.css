@@ -1,6 +1,5 @@
 html {
   font-family: "Montserrat", sans-serif;
-  /* border: 1px solid salmon; */
 }
 
 body {
@@ -10,19 +9,19 @@ body {
 }
 
 :root {
-  --border: #aaaaaa65 1px solid;
+  --border: #74747465 1px solid;
   --border-radius: 1rem;
   --primary-color: #1a90ff;
   --secondary-color: #00c09e;
 }
 
 .font-big {
-  font-size: 6rem;
+  font-size: 4rem;
   margin: 0;
   @media screen and (min-width: 1024px) {
-    font-size: 8rem
+    font-size: 8rem;
   }
   @media screen and (min-width: 1200px) {
-    font-size: 10rem; 
+    font-size: 10rem;
   }
 }
