@@ -23,6 +23,8 @@
         </header>
         <div class="flex-1 flex items-center justify-center px-10">
           <img
+            loading="lazy"
+            decoding="async"
             height="305"
             width="326.35"
             class="aspect-auto"
