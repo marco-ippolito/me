@@ -1,7 +1,7 @@
 <template>
   <SvgBackground />
   <div
-    class="flex flex-col w-full h-full items-center justify-center scroll-smooth"
+    class="flex flex-col w-full h-full items-center justify-center scroll-smooth z-100 mt-5 lg:mt-0 gap-5 lg:gap-10"
   >
     <header class="flex justify-end p-4 self-end">
       <ul class="flex gap-4 fixed">
@@ -11,16 +11,29 @@
         <li>twitch</li>
       </ul>
     </header>
-    <section class="container home">
-      <main class="about">
-        <header class="w-20">
-          <h1 class="name font-big">
+    <section
+      class="container home flex flex-col justify-center px-10 gap-5 lg:gap-10"
+    >
+      <main class="lg:flex px-10 lg:gap-10">
+        <header class="flex-1">
+          <h1 class="name font-big mb-10">
             Marco
             <span class="ippolito">Ippolito</span>
           </h1>
         </header>
-        <div class="w-[80%]">
-          <p class="text-xl lg:text-3xl font-thin">
+        <div class="flex-1 flex items-center justify-center px-10">
+          <img
+            height="305"
+            width="326.35"
+            class="aspect-auto"
+            src="~/assets/images/profile.png"
+            alt="Marco Ippolito's profile photo"
+          />
+        </div>
+      </main>
+      <aside class="lg:flex px-10">
+        <div class="flex-1">
+          <p class="text-xl lg:text-3xl font-thin card-mobile">
             I'm a
             <span class="font-bold">Developer Experience Engineer</span> at
             NearForm. Passionate about the open source world, especially the
@@ -28,34 +41,26 @@
             Fastify, Mercurius, and more.
           </p>
         </div>
-      </main>
-      <aside class="flex flex-col justify-around items-center h-180 flex-1">
-        <img
-          height="305"
-          width="326.35"
-          class="aspect-auto contain"
-          src="~/assets/images/profile.png"
-          alt="Marco Ippolito's profile photo"
-        />
-        <div class="glass flex gap-8 w-xs lg:w-sm items-center">
-          <NearformLogo />
-          <p>
-            NearForm creates software solutions that accelerate enterprise
-            success, enrich customer experience and contribute to the
-            development of our community.
+        <div class="flex-1 flex items-center justify-center">
+          <article
+            class="glass lg:gap-8 gap-4 w-xs lg:w-sm flex items-center flex-col lg:flex-row mt-8"
+          >
+            <NearformLogo />
+            <p>
+              NearForm creates software solutions that accelerate enterprise
+              success, enrich customer experience and contribute to the
+              development of our community.
 
-            <a
-              href="https://www.nearform.com/"
-              target="_blank"
-              class="color-white"
-              >About it</a
-            >
-          </p>
+              <a
+                href="https://www.nearform.com/"
+                target="_blank"
+                class="color-white"
+                >About it</a
+              >
+            </p>
+          </article>
         </div>
       </aside>
-      <div class="agenda content-center">
-        <button class="w-50">agenda</button>
-      </div>
     </section>
     <section class="container mx-auto min-h-screen">
       <h1 class="text-7xl m10">Agenda 2023</h1>
@@ -102,22 +107,33 @@ useHead({
   box-shadow: 0 4px 30px #0000001a;
   padding: var(--space-l);
 }
-.home {
-  width: 100%;
-  display: grid;
-  position: relative;
-  grid-template-columns: 1fr;
-  margin: 0 2rem;
-  /* margin-top: -5rem; */
-  @media screen and (min-width: 768px) {
-    /* max-width: 1450px; */
-    justify-content: center;
-    align-items: center;
-    height: 100dvh;
-    grid-row: 1fr auto;
-    grid-template-columns: 1fr 1fr;
+
+@media screen and (min-width: 768px) {
+  .home {
+    height: 90dvh;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .card-mobile {
+    --start: #3a3a3a;
+    --end: #0f0f0f;
+    --space-l: 2rem;
+    background-color: var(--end);
+    background-image: linear-gradient(
+      110deg,
+      var(--start) 0%,
+      var(--start) 28%,
+      var(--end) 56%,
+      var(--end) 100%
+    );
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: 0 4px 30px #0000001a;
+    padding: var(--space-l);
+  }
+}
+
 .agenda {
   padding: 1rem 2rem;
   display: flex;

@@ -29,7 +29,7 @@ const props = defineProps<{
   justify-content: space-around;
   align-items: center;
   gap:2rem;
-  margin: 2rem 0;
+  margin: 2rem;
   @media screen and (min-width: 768px) {
     flex-direction: row;
     gap: 4rem;

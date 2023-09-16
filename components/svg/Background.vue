@@ -1,7 +1,7 @@
 <template>
   <svg
     style="position: absolute;"
-    class="h-screen w-screen"
+    class="lg:h-screen w-screen -z-10"
     width="1276"
     height="855"
     viewBox="0 0 1276 855"
