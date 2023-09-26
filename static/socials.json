@@ -1,0 +1,22 @@
+[
+    {
+        "name": "github",
+        "url": "https://github.com/marco-ippolito",
+        "logo": "/_nuxt/assets/logos/Github-black.svg"
+    },
+    {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/marcoippolito2021/",
+        "logo": "/_nuxt/assets/logos/In-White-72.png"
+    },
+    {
+        "name": "twitch",
+        "url": "https://www.twitch.tv/satanacchio_",
+        "logo": "/_nuxt/assets/logos/TwitchGlitchWhite.svg"
+    },
+    {
+        "name": "twitter",
+        "url": "https://twitter.com/satanacchio",
+        "logo": "/_nuxt/assets/logos/X-White.png"
+    }
+]
