@@ -1,13 +1,13 @@
 <template>
   <article class="agenda-item">
-    <h2 class="text-4xl lg:text-2xl">{{ props.date }}</h2>
-    <div class="text-2xl flex flex-col -gap-2 flex-1" >
+    <h2 class="text-2xl lg:text-2xl order-">{{ props.date }}</h2>
+    <div class="text-2xl flex flex-col -gap-2 flex-1 order-first" >
       <h3 class="color-#05f5ca">{{ props.title }}</h3>
       <p class="color-gray-200">{{ props.description }}</p>
     </div>
-    <a :href="props.link" target="_blank" class="color-white">Discover more</a>
+    <a :href="props.link" target="_blank" class="color-white order-last border-1 border-solid border-emerald pa-4 rounded-lg ">Discover more</a>
   </article>
-</template>
+</template>2
 <script setup lang="ts">
 const props = defineProps<{
   title: string;
@@ -19,7 +19,7 @@ const props = defineProps<{
 
 <style>
 .agenda-item {
-  border: 1px solid white;
+  border-bottom: 1px solid white;
   border-radius: var(--border-radius);
   /* padding: 2rem 4rem; */
   padding: 1rem 2rem;

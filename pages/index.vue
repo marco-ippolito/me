@@ -18,11 +18,11 @@
           <img
             loading="lazy"
             decoding="async"
-            height="305"
-            width="326.35"
-            class="aspect-auto"
-            src="~/assets/images/profile.png"
+            height="256"
+            width="254"
+            src="~/assets/images/profile-bg.jpg"
             alt="Marco Ippolito's profile photo"
+            class="rounded-full"
           />
         </div>
       </main>
@@ -58,7 +58,7 @@
       </aside>
     </section>
     <section class="container mx-auto min-h-screen">
-      <h1 class="text-7xl m10">Agenda 2023</h1>
+      <h1 class="text-6xl m10">Agenda 2023</h1>
       <template v-for="item in agenda" :key="`${item.conference}${item.date}`">
         <AgendaItem
           v-if="!item.private"
