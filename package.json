@@ -4,7 +4,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxi generate",
+    "generate": "npx nuxi generate",
     "preview": "serve .output/public",
     "postinstall": "nuxt prepare"
   },
