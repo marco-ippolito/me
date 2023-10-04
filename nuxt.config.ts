@@ -25,4 +25,9 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: "en" },
     },
   },
+  build: {
+    extractCSS: {
+      allChunks: true
+    }
+  }
 });
