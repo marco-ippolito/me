@@ -18,9 +18,9 @@
           <img
             loading="lazy"
             decoding="async"
-            height="256"
-            width="254"
-            src="~/assets/images/profile-bg.jpg"
+            height="380"
+            width="380"
+            src="~/assets/images/profile-removebg.png"
             alt="Marco Ippolito's profile photo"
             class="rounded-full"
           />
