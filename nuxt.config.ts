@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         },
       },
     ],
+    '@nuxt/image',
   ],
   css: [
     "@unocss/reset/normalize.css",

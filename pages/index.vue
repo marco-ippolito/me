@@ -15,14 +15,13 @@
           </h1>
         </header>
         <div class="flex-1 flex items-center justify-center px-10">
-          <img
-            loading="lazy"
-            decoding="async"
-            height="380"
-            width="380"
-            src="~/assets/images/profile-removebg.png"
+          <NuxtImg
+            src="/img/profile-removebg.png"
             alt="Marco Ippolito's profile photo"
             class="rounded-full"
+            height="400"
+            width="400"
+            sizes="100vw sm:50vw md:400px"
           />
         </div>
       </main>

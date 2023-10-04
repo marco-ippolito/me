@@ -12,7 +12,10 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@unocss/nuxt": "^0.55.7",
-    "nuxt": "^3.7.1",
+    "nuxt": "^3.7.4",
     "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "1.0.0-rc.3"
   }
 }
