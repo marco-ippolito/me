@@ -26,5 +26,12 @@
         "logo": "/logos/X-White.png",
         "aria-label": "Link to Marco Ippolito's Twitter profile",
         "alt": "Twitter logo"
+    },
+    {
+        "name": "youtube",
+        "url": "https://www.youtube.com/channel/UCUHTfWzj1ZD103-k6gm9LfA",
+        "logo": "/logos/youtube_social_circle_white.png",
+        "aria-label": "Link to Marco Ippolito's YouTube channel",
+        "alt": "YouTube logo"
     }
 ]
