@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="flex flex-col gap-4 backdrop-blur-lg fixed bottom-5 left-2 sm:top-10 sm:left-10 z-100 sm:p-4 p-2 rounded-xl"
+    class="flex gap-4 backdrop-blur-lg rounded-xl sticky top-0 z-50 p-4 bg-gray-900 bg-opacity-50"
   >
     <li v-for="social in socials">
       <a :href="social.url" target="_blank" :arial-label="social['aria-label']">

@@ -6,6 +6,7 @@
     "dev": "nuxt dev",
     "generate": "npx nuxi generate",
     "preview": "serve .output/public",
+    "preview:generate": "pnpm generate && serve .output/public",
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
