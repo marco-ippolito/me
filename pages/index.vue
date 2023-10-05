@@ -4,74 +4,12 @@
     class="flex flex-col w-full h-full items-center justify-center scroll-smooth z-100 mt-5 lg:mt-0 gap-5 lg:gap-10"
   >
     <Socials />
-    <section
-      class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-10"
-    >
-      <main class="flex flex-col lg:flex-row px-10 lg:gap-10">
-        <header class="flex-1">
-          <h1 class="name font-big mb-10">
-            Marco
-            <span class="linear-animated">Ippolito</span>
-          </h1>
-        </header>
-        <div class="flex-1 flex items-center justify-center px-10">
-          <NuxtImg
-            src="/img/profile-removebg.png"
-            alt="Marco Ippolito's profile photo"
-            class="rounded-full"
-            sizes="700 sm:350"
-          />
-        </div>
-      </main>
-      <aside class="lg:flex px-10">
-        <div class="flex-1">
-          <p class="text-xl lg:text-3xl font-200 card-mobile">
-            I'm a
-            <span class="font-bold">Developer Experience Engineer</span> at
-            <span class="linear-animated">NearForm</span>. Passionate about the
-            open source world, especially the Node.js ecosystem, I actively
-            contribute to projects like Node.js, Fastify, Mercurius, and more.
-          </p>
-        </div>
-        <div class="flex-1 flex items-center justify-center">
-          <article
-            class="glass lg:gap-8 gap-4 max-w-xs lg:max-w-lg flex items-center flex-col lg:flex-row mt-8"
-          >
-            <NearformLogo />
-            <p class="text-xl font-400">
-              NearForm creates software solutions that accelerate enterprise
-              success, enrich customer experience and contribute to the
-              development of our community.
-
-              <a
-                href="https://www.nearform.com/"
-                target="_blank"
-                class="color-white"
-                >About it</a
-              >
-            </p>
-          </article>
-        </div>
-      </aside>
-    </section>
-    <section class="container mx-auto min-h-screen">
-      <h1 class="text-6xl m10">Agenda 2023</h1>
-      <template v-for="item in agenda" :key="`${item.conference}${item.date}`">
-        <AgendaItem
-          v-if="!item.private"
-          :link="item.link"
-          :date="item.date"
-          :title="`${item.conference} ${item.flag}`"
-          :description="item.talk"
-        />
-      </template>
-    </section>
+    <SectionHome />
+    <SectionAgenda />
   </div>
 </template>
 
 <script lang="ts" setup>
-import agenda from "~/static/agenda.json";
-
 useHead({
   title: "Marco Ippolito - Developer Experience Engineer",
   meta: [
@@ -84,9 +22,8 @@ useHead({
 
 <style>
 .glass {
-  --start: #3a3a3a;
-  --end: #0f0f0f;
-  --space-l: 2rem;
+  --start: #252525;
+  --end: #000000;
   background-color: var(--end);
   background-image: linear-gradient(
     110deg,
@@ -98,7 +35,7 @@ useHead({
   border-radius: var(--border-radius);
   border: var(--border);
   box-shadow: 0 4px 30px #0000001a;
-  padding: var(--space-l);
+  padding: 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -144,31 +81,12 @@ useHead({
   letter-spacing: 0.25rem;
 }
 .linear-animated {
-  background: linear-gradient(
-    to right,
-    #ffebcd,
-    var(--primary-color),
-    #65f3bc,
-    var(--secondary-color),
-    #56b8df
-  );
+  background: var(--linear-gradient);
   background-clip: text;
   background-size: 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: flow 6s linear infinite;
 }
-@keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
 
-  50% {
-    background-position: 100% 50%;
-  }
-
-  to {
-    background-position: 0 50%;
-  }
-}
 </style>
