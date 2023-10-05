@@ -7,11 +7,11 @@ export default defineNuxtConfig({
       "@nuxtjs/google-fonts",
       {
         families: {
-          Montserrat: [400, 500, 600, 700],
+          Montserrat: [400, 700],
         },
       },
     ],
-    '@nuxt/image',
+    "@nuxt/image",
   ],
   css: [
     "@unocss/reset/normalize.css",
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   },
   build: {
     extractCSS: {
-      allChunks: true
-    }
-  }
+      allChunks: true,
+    },
+  },
 });

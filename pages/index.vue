@@ -19,15 +19,13 @@
             src="/img/profile-removebg.png"
             alt="Marco Ippolito's profile photo"
             class="rounded-full"
-            height="400"
-            width="400"
-            sizes="100vw sm:50vw md:400px"
+            sizes="700 sm:350"
           />
         </div>
       </main>
       <aside class="lg:flex px-10">
         <div class="flex-1">
-          <p class="text-xl lg:text-3xl font-thin card-mobile">
+          <p class="text-xl lg:text-3xl font-200 card-mobile">
             I'm a
             <span class="font-bold">Developer Experience Engineer</span> at
             <span class="linear-animated">NearForm</span>. Passionate about the
@@ -40,7 +38,7 @@
             class="glass lg:gap-8 gap-4 max-w-xs lg:max-w-lg flex items-center flex-col lg:flex-row mt-8"
           >
             <NearformLogo />
-            <p class="text-xl font-thin">
+            <p class="text-xl font-400">
               NearForm creates software solutions that accelerate enterprise
               success, enrich customer experience and contribute to the
               development of our community.
@@ -105,7 +103,7 @@ useHead({
 
 @media screen and (min-width: 768px) {
   .home {
-    height: 90dvh;
+    height: 100vh;
   }
 }
 
@@ -142,7 +140,7 @@ useHead({
   color: #fff;
   font-family: Montserrat;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.25rem;
 }
 .linear-animated {
