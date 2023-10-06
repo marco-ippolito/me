@@ -3,7 +3,7 @@
     class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2"
   >
     <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
-      <header class="flex-1 self-center">
+      <header class="flex-1 self-center mt-10">
         <h1 class="name font-big mb-10">
           Marco
           <span class="linear-animated">Ippolito</span>
@@ -18,7 +18,6 @@
           class="rounded-full"
           sizes="300 sm:380"
         />
-        <Socials class="sticky" />
       </div>
     </main>
     <aside class="lg:flex px-10">

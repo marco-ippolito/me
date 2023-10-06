@@ -1,0 +1,22 @@
+{
+  "routes": [
+    {
+      "route": "/200",
+      "rewrite": "/200.html"
+    },
+    {
+      "route": "/404",
+      "rewrite": "/404.html"
+    },
+    {
+      "route": "/",
+      "rewrite": "/index.html"
+    }
+  ],
+  "platform": {
+    "apiRuntime": "node:16"
+  },
+  "navigationFallback": {
+    "rewrite": "/api/server"
+  }
+}

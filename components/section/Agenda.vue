@@ -1,6 +1,6 @@
 <template>
-  <section class="container mx-auto min-h-screen">
-    <h1 class="text-6xl m10">Agenda 2023</h1>
+  <section class="agenda container mx-auto youtube_social_circle_dark">
+    <h1 class="text-6xl m10">Agenda</h1>
     <template v-for="item in agenda" :key="`${item.conference}${item.date}`">
       <AgendaItem
         v-if="!item.private"
@@ -16,3 +16,9 @@
 <script setup lang="ts">
 import agenda from "~/static/agenda.json";
 </script>
+
+<style>
+.agenda{
+  height: 95dvh;
+}
+</style>

@@ -3,8 +3,9 @@
   <div
     class="flex flex-col w-full h-full items-center justify-center scroll-smooth z-100 mt-5 lg:mt-0 gap-5 lg:gap-10"
   >
+    <Socials />
     <SectionHome />
-    <SectionAgenda />
+    <SectionAgenda class="pt-10" id="agenda"/>
   </div>
 </template>
 
@@ -19,14 +20,6 @@ useHead({
 </script>
 
 <style>
-.agenda {
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid yellow;
-  margin: 0 2rem;
-  grid-column: 1 / -1;
-}
 .name {
   flex-shrink: 0;
   color: #fff;
@@ -43,5 +36,4 @@ useHead({
   -webkit-text-fill-color: transparent;
   animation: flow 6s ease infinite;
 }
-
 </style>
