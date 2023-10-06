@@ -7,6 +7,10 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true
-		}
+		},
+		"ignore": [".nuxt", ".output", "dist"]
+	},
+	"formatter": {
+		"ignore": [".nuxt", ".output", "dist"]
 	}
 }
