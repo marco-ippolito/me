@@ -1,0 +1,49 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+:root {
+  --border: #74747465 1px solid;
+  --border-radius: 1rem;
+  --primary-color: #1a90ff;
+  --secondary-color: #00c09e;
+  --linear-gradient: linear-gradient(
+    to right,
+    #ffebcd,
+    var(--primary-color),
+    #65f3bc,
+    var(--secondary-color),
+    #56b8df
+  );
+}
+
+.font-big {
+  font-size: 4rem;
+  margin: 0;
+  @media screen and (min-width: 1024px) {
+    font-size: 8rem;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 10rem;
+  }
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  to {
+    background-position: 0 50%;
+  }
+}

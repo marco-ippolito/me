@@ -1,17 +1,22 @@
 {
-  "name": "marco ippolito",
-  "version": "1.0.0",
+  "name": "nuxt-app",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "preview": "vite preview",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "vite": "^4.0.4",
-    "vite-plugin-ejs": "^1.6.4"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "npx nuxi generate",
+    "preview": "serve .output/public",
+    "preview:generate": "pnpm generate && serve .output/public",
+    "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@unocss/nuxt": "^0.55.7",
+    "nuxt": "^3.7.4",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "1.0.0-rc.3"
   }
 }
