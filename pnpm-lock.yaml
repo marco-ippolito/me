@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  '@orama/orama':
+    specifier: ^1.2.10
+    version: 1.2.10
+
 devDependencies:
   '@biomejs/biome':
     specifier: 1.2.2
@@ -1534,6 +1539,11 @@ packages:
       - rollup
       - supports-color
     dev: true
+
+  /@orama/orama@1.2.10:
+    resolution: {integrity: sha512-B5L8/klWim9Mepc0suK3pG8NkEPRDUa/CfhXCISDHaEFLiTvJXDmB8Zr9A+fWnU+2vIJm0aTzv2LWMNms9qAiw==}
+    engines: {node: '>= 16.0.0'}
+    dev: false
 
   /@parcel/watcher-android-arm64@2.3.0:
     resolution: {integrity: sha512-f4o9eA3dgk0XRT3XhB0UWpWpLnKgrh1IwNJKJ7UJek7eTYccQ8LR7XUWFKqw6aEq5KUNlCcGvSzKqSX/vtWVVA==}

@@ -14,14 +14,16 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.2.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "1.0.0-rc.3",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@unocss/nuxt": "^0.55.7",
-    "@nuxt/image": "1.0.0-rc.3",
     "nuxt": "^3.7.4",
-    "serve": "^14.2.1",
-    "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0"
+    "serve": "^14.2.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@orama/orama": "^1.2.10"
+  }
 }

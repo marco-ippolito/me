@@ -24,7 +24,7 @@
     </main>
     <aside class="lg:flex px-10">
       <div class="flex-1">
-        <p class="text-xl lg:text-3xl font-200 card-mobile">
+        <p class="text-xl lg:text-3xl card-mobile">
           I'm a
           <span class="font-bold">Senior Developer Experience Engineer</span> at
           <span class="linear-animated">NearForm</span>. Passionate about the
@@ -37,7 +37,7 @@
           class="glass lg:gap-8 gap-4 max-w-xs lg:max-w-lg flex items-center flex-col lg:flex-row mt-8"
         >
           <NearformLogo />
-          <p class="text-xl font-400">
+          <p class="text-xl">
             NearForm creates software solutions that accelerate enterprise
             success, enrich customer experience and contribute to the
             development of our community.
@@ -57,20 +57,13 @@
 
 <style>
 .glass {
-  --start: #252525;
-  --end: #000000;
-  background-color: var(--end);
-  background-image: linear-gradient(
-    110deg,
-    var(--start) 0%,
-    var(--start) 28%,
-    var(--end) 56%,
-    var(--end) 100%
-  );
-  border-radius: var(--border-radius);
-  border: var(--border);
-  box-shadow: 0 4px 30px #0000001a;
-  padding: 2rem;
+  border: 1px solid #514d56;
+  border-radius: 0.8rem;
+  color: #f5f5f5;
+  background-color: #242424;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem 2.4rem;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -81,21 +74,13 @@
 
 @media screen and (max-width: 768px) {
   .card-mobile {
-    --start: #3a3a3a;
-    --end: #0f0f0f;
-    --space-l: 2rem;
-    background-color: var(--end);
-    background-image: linear-gradient(
-      110deg,
-      var(--start) 0%,
-      var(--start) 28%,
-      var(--end) 56%,
-      var(--end) 100%
-    );
-    border-radius: var(--border-radius);
-    border: var(--border);
-    box-shadow: 0 4px 30px #0000001a;
-    padding: var(--space-l);
+    border: 1px solid #514d56;
+    border-radius: 0.8rem;
+    color: #f5f5f5;
+    background-color: #242424;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem 2.4rem;
+    max-width: 20rem;
   }
 }
 </style>

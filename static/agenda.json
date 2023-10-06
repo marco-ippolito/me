@@ -4,7 +4,6 @@
 		"conference": "Node Congress",
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
-		"slides": null,
 		"flag": "🇩🇪",
 		"link": "https://nodecongress.com/"
 	},
@@ -14,14 +13,12 @@
 		"talk": "Writing a full-text search engine in TypeScript",
 		"private": false,
 		"flag": "🇳🇱",
-		"slides": null,
 		"link": "https://appdevcon.nl/"
 	},
 	{
 		"date": "09/05/2023",
 		"conference": "Node.js Collaborator Summit",
 		"talk": "Let's automate Node dependency update",
-		"slides": null,
 		"private": false,
 		"flag": "🇨🇦",
 		"link": "https://github.com/openjs-foundation/summit/issues/343"
@@ -39,7 +36,6 @@
 		"conference": "NodeConf EU",
 		"private": false,
 		"talk": "Your First Node.js Contribution",
-		"slides": null,
 		"flag": "🇮🇪",
 		"link": "https://www.nodeconf.eu/"
 	},
@@ -48,7 +44,6 @@
 		"conference": "NodeConf EU",
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
-		"slides": null,
 		"flag": "🇮🇪",
 		"link": "https://www.nodeconf.eu/"
 	},
@@ -57,7 +52,6 @@
 		"conference": "Working Software Conf",
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://www.agilemovement.it/workingsoftware/"
 	},
@@ -66,7 +60,6 @@
 		"conference": "Oracolo del test",
 		"private": false,
 		"talk": "Exploring Node.js test runner",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://www.youtube.com/watch?v=TgIHCxJVHOo&t=1282s"
 	},
@@ -75,7 +68,6 @@
 		"conference": "Javascript & Friends",
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
-		"slides": null,
 		"flag": "🇺🇸",
 		"link": "https://www.javascriptandfriends.com/"
 	},
@@ -84,7 +76,6 @@
 		"conference": "DevBcn",
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
-		"slides": null,
 		"flag": "🇪🇸",
 		"link": "https://www.devbcn.com/talk/462757"
 	},
@@ -93,7 +84,6 @@
 		"conference": "Come to Code",
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://www.cometocode.it/"
 	},
@@ -102,7 +92,6 @@
 		"conference": "Schrödinger Hat",
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://www.linkedin.com/feed/update/urn:li:activity:7096827916071632897"
 	},
@@ -135,7 +124,6 @@
 		"conference": "TestJS Summit",
 		"talk": "Exploring Node.js test runner",
 		"private": false,
-		"slides": null,
 		"flag": "🇩🇪",
 		"link": "https://testjssummit.com/"
 	},
@@ -144,7 +132,6 @@
 		"conference": "Pescara DevFest",
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://devfest.gdgpescara.it/"
 	},
@@ -153,7 +140,6 @@
 		"conference": "Pescara DevFest",
 		"private": false,
 		"talk": "Your First Node.js Contribution",
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://devfest.gdgpescara.it/"
 	},
@@ -170,7 +156,6 @@
 		"conference": "Devfest Alps 2023",
 		"talk": "Exploring Node.js test runner",
 		"private": false,
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
 	},
@@ -179,7 +164,6 @@
 		"conference": "Devfest Alps 2023",
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
-		"slides": null,
 		"flag": "🇮🇹",
 		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
 	}

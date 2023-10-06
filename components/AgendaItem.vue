@@ -1,13 +1,19 @@
 <template>
   <article class="agenda-item">
-    <h2 class="text-2xl lg:text-2xl order-">{{ props.date }}</h2>
-    <div class="text-2xl flex flex-col -gap-2 flex-1 order-first" >
-      <h3 class="color-#05f5ca">{{ props.title }}</h3>
+    <p class="text-2xl color-gray-200">{{ props.date }}</p>
+    <div class="text-2xl flex flex-col -gap-2 flex-1 order-first">
+      <h3 class="color-#05f5ca font-bold">{{ props.title }}</h3>
       <p class="color-gray-200">{{ props.description }}</p>
     </div>
-    <a :href="props.link" target="_blank" class="color-white order-last pa-4 rounded-lg animated-border">Discover more</a>
+    <a
+      :href="props.link"
+      target="_blank"
+      class="color-gray-200 order-last pa-4 rounded-lg animated-border decoration-none font-bold"
+      >Read More</a
+    >
   </article>
-</template>2
+</template>
+2
 <script setup lang="ts">
 const props = defineProps<{
   title: string;
@@ -19,8 +25,7 @@ const props = defineProps<{
 
 <style>
 .agenda-item {
-  border-bottom: 1px solid white;
-  border-radius: var(--border-radius);
+  border-bottom: 0.5px solid #666666;
   /* padding: 2rem 4rem; */
   padding: 1rem 2rem;
   font-size: 1rem;
@@ -28,24 +33,27 @@ const props = defineProps<{
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap:2rem;
+  gap: 2rem;
   margin: 2rem;
+  width: 85%;
   @media screen and (min-width: 768px) {
     flex-direction: row;
     gap: 4rem;
   }
   /* width: 100%; */
 }
+.agenda-item:last-child {
+  border-bottom: none;
+}
 
-.animated-border{
+.animated-border {
   position: relative;
   box-sizing: border-box;
-  color: #FFF;
+  color: #fff;
   background: #000;
   background-clip: padding-box;
   border: solid 2px transparent;
   animation: flow 6s linear infinite;
-
 }
 
 .animated-border:before {
@@ -63,16 +71,15 @@ const props = defineProps<{
   background-size: 300% 300%;
 }
 
-
 @keyframes animatedgradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 </style>
