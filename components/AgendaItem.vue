@@ -52,7 +52,7 @@ const props = defineProps<{
   color: #fff;
   background: #000;
   background-clip: padding-box;
-  border: solid 2px transparent;
+  border: solid 0.5px transparent;
   animation: flow 6s linear infinite;
 }
 
@@ -64,7 +64,7 @@ const props = defineProps<{
   bottom: 0;
   left: 0;
   z-index: -1;
-  margin: -2px;
+  margin: -1px;
   border-radius: inherit;
   background: var(--linear-gradient);
   animation: animatedgradient 6s ease alternate infinite;
