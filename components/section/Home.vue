@@ -24,7 +24,7 @@
       <div class="flex-1">
         <p class="text-xl lg:text-3xl font-200 card-mobile">
           I'm a
-          <span class="font-bold">Developer Experience Engineer</span> at
+          <span class="font-bold">Senior Developer Experience Engineer</span> at
           <span class="linear-animated">NearForm</span>. Passionate about the
           open source world, especially the Node.js ecosystem, I actively
           contribute to projects like Node.js, Fastify, Mercurius, and more.
