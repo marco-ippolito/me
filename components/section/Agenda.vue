@@ -1,5 +1,5 @@
 <template>
-  <section class="agenda container mx-auto youtube_social_circle_dark">
+  <section class="agenda container mx-auto">
     <h1 class="text-6xl m10">Agenda</h1>
     <template
       v-for="item in agendaOrderedByDate"

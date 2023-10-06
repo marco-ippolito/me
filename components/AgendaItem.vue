@@ -35,7 +35,6 @@ const props = defineProps<{
   align-items: center;
   gap: 2rem;
   margin: 2rem;
-  width: 85%;
   @media screen and (min-width: 768px) {
     flex-direction: row;
     gap: 4rem;
