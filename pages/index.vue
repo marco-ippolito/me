@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 useHead({
-  title: "Marco Ippolito - Developer Experience Engineer",
+  title: "Marco Ippolito - Senior Developer Experience Engineer",
   meta: [
     { name: "description", content: "My personal website" },
     { name: "author", content: "Marco Ippolito" },
