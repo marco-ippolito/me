@@ -13,6 +13,8 @@
         class="flex-1 flex flex-col gap-4 items-center justify-center px-10 relative"
       >
         <NuxtImg
+          height="300"
+          width="300"
           src="/img/profile-removebg.png"
           alt="Marco Ippolito's profile photo"
           class="rounded-full"
