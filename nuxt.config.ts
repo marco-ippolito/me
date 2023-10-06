@@ -30,4 +30,9 @@ export default defineNuxtConfig({
       allChunks: true,
     },
   },
+  router: {
+    options: {
+      scrollBehaviorType: "smooth",
+    }
+  }
 });

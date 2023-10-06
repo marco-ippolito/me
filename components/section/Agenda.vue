@@ -1,7 +1,10 @@
 <template>
   <section class="agenda container mx-auto youtube_social_circle_dark">
     <h1 class="text-6xl m10">Agenda</h1>
-    <template v-for="item in agenda" :key="`${item.conference}${item.date}`">
+    <template
+      v-for="item in agendaOrderedByDate"
+      :key="`${item.conference}${item.date}`"
+    >
       <AgendaItem
         v-if="!item.private"
         :link="item.link"
@@ -15,10 +18,16 @@
 
 <script setup lang="ts">
 import agenda from "~/static/agenda.json";
+
+const agendaOrderedByDate = agenda.sort((a, b) => {
+  const dateA = new Date(a.date.split("/").reverse().join("-")).getTime();
+  const dateB = new Date(b.date.split("/").reverse().join("-")).getTime();
+  return dateB - dateA;
+});
 </script>
 
 <style>
-.agenda{
+.agenda {
   height: 95dvh;
 }
 </style>

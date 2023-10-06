@@ -1,11 +1,11 @@
 <template>
   <SvgBackground />
   <div
-    class="flex flex-col w-full h-full items-center justify-center scroll-smooth z-100 mt-5 lg:mt-0 gap-5 lg:gap-10"
+    class="flex flex-col w-full h-full items-center justify-center scroll-smooth z-100 mt-5 lg:mt-0 gap-5 lg:gap-10 scroll-smooth"
   >
     <Socials />
     <SectionHome />
-    <SectionAgenda class="pt-10" id="agenda"/>
+    <SectionAgenda class="pt-10" id="agenda" />
   </div>
 </template>
 
