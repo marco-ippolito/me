@@ -146,7 +146,7 @@
 	{
 		"date": "30/10/2023",
 		"conference": "PI-23 Community Meeting",
-		"private": true,
+		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇿🇲",
 		"link": "https://mojaloop.io/"
