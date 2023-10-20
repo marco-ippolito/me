@@ -12,16 +12,6 @@
   </div>
 </template>
 
-<script lang="ts" setup>
-useHead({
-  title: "Marco Ippolito - Senior Developer Experience Engineer",
-  meta: [
-    { name: "description", content: "My personal website" },
-    { name: "author", content: "Marco Ippolito" },
-  ],
-});
-</script>
-
 <style>
 .name {
   flex-shrink: 0;
