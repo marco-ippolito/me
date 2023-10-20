@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="w-full fixed flex gap-4 backdrop-blur-lg top-0 z-50 p-4 bg-gray-900 bg-opacity-50 justify-end pr-20"
+    class="w-full fixed flex gap-4 backdrop-blur-lg top-0 z-50 p-4 bg-opacity-50 justify-end pr-20"
   >
     <li>
       <NuxtLink to="/#agenda" aria-label="prova" active-class="color-white">

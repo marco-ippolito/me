@@ -1,5 +1,5 @@
 <template>
-  <section class="agenda container mx-auto">
+  <section class="container mx-auto h-full">
     <h1 class="text-6xl m10">Agenda</h1>
     <template
       v-for="item in agendaOrderedByDate"
@@ -25,9 +25,3 @@ const agendaOrderedByDate = agenda.sort((a, b) => {
   return dateB - dateA;
 });
 </script>
-
-<style>
-.agenda {
-  height: 95dvh;
-}
-</style>

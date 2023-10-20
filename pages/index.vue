@@ -5,7 +5,10 @@
   >
     <Socials />
     <SectionHome />
-    <SectionAgenda class="pt-10" id="agenda" />
+    <SectionAgenda class="pt-10 h-full" id="agenda" />
+    <div class="w-full p-4 text-center bottom-0">
+      <p>{{ new Date().getFullYear() }}</p>
+    </div>
   </div>
 </template>
 
