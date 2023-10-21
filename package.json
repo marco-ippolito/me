@@ -15,7 +15,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.2.2",
     "@commitlint/cli": "^17.7.1",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/config-conventional": "^18.0.0",
     "@nuxt/devtools": "latest",
     "@nuxt/image": "1.0.0-rc.3",
     "@nuxtjs/google-fonts": "^3.0.2",
