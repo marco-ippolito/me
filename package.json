@@ -24,7 +24,6 @@
     "serve": "^14.2.1"
   },
   "dependencies": {
-    "@orama/orama": "^1.2.10",
     "@vercel/analytics": "^1.1.1"
   }
 }
