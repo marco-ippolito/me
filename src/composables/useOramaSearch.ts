@@ -1,5 +1,7 @@
+import { create, insert, search } from "@orama/orama";
+import { computedAsync } from "@vueuse/core";
 import { OramaSchema } from "./types";
-export async function useOramaSearch<T extends Record<string, any>>({
+export async function useOramaSearch<T extends Record<string, unknown>>({
   data,
   schema,
 }: {
@@ -14,14 +16,20 @@ export async function useOramaSearch<T extends Record<string, any>>({
   });
 
   for (const item of data) {
+	// @ts-ignore
     await insert(db, item);
   }
 
   async function handlerSearch(event: Event) {
+    //@ts-ignore
     if (!event?.target?.value) return;
     const results_ = await search(db, {
+      //@ts-ignore
       term: event.target.value,
     });
+    // @ts-ignore
+    searchTerm.value = event.target.value;
+    console.log("RESULT ORAMA", results_);
     // @ts-ignore
     results.value = results_.hits.map((item) => item.document);
   }
@@ -41,6 +49,6 @@ export async function useOramaSearch<T extends Record<string, any>>({
     searchResult,
     searchResultData,
     handlerSearch,
-    results
+    results,
   };
 }

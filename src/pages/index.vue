@@ -17,7 +17,12 @@
     </div>
   </div>
 </template>
-
+<script setup lang="ts">
+const isFirefox = ref(true);
+onMounted(() => {
+  isFirefox.value = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
+});
+</script>
 <style>
 ::-webkit-scrollbar {
   width: 5px;

@@ -1,5 +1,5 @@
 <template>
-  <section class="agenda container mx-auto">
+  <section class="container mx-auto">
     <div class="flex flex-wrap justify-between items-center">
       <h1 class="text-6xl m10">Agenda</h1>
       <pre>searchTerm: {{ searchTerm }}</pre>
@@ -50,10 +50,3 @@ const { results, searchTerm , searchResultData, handlerSearch} = await useOramaS
   schema,
 });
 </script>
-
-<style>
-.agenda {
-  height: 95dvh;
-}
-</style>
-~/src/composables/useOramaSearch~/src/composables/types
