@@ -3,7 +3,7 @@
     <filter id="noiseFilter">
       <feTurbulence
         type="fractalNoise"
-        baseFrequency="0.65"
+        baseFrequency="0.45"
         result="noise"
         stitchTiles="stitch"
       />
@@ -30,9 +30,6 @@
 </template>
 
 <style>
-body{
-  overflow-x: auto;
-}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -72,7 +69,7 @@ body{
   border: 1px solid rgb(255, 255, 255);
   height: 90.5dvh;
   z-index: -9;
-  opacity: 25%;
+  opacity: 15%;
   background: #000000;
   filter: url(#noiseFilter);
   pointer-events: none;
