@@ -1,27 +1,36 @@
 <template>
-  <section class="container mx-auto">
+  <section class="container mx-auto flex flex-col min-h-[70dvh]">
     <div class="flex flex-wrap justify-between items-center">
-      <h1 class="text-6xl m10">Agenda</h1>
-      <pre>searchTerm: {{ searchTerm }}</pre>
-      <input
-        class="bg-transuarent border-b-2 border-gray-300 text-2xl h10 w-full md:w-1/3 lg:w-1/5 mx-10 rounded-lg placeholder:color-gray-300 focus:outline-none focus:border-#05f5ca px-4 color-gray-200 bg-gray-800"
-        type="text"
-        placeholder="Search"
-        @input="handlerSearch"
-      />
+      <h1 class="text-6xl m10 flex-1">Agenda</h1>
+      <div class="w-full md:w-1/3 lg:w-1/5 w-1/4 flex flex-col mr-10">
+        <input
+          class="mx-auto w-4/5 bg-transparent border border-gray-300 text-2xl rounded-lg placeholder:color-gray-200 focus:outline-none focus:border-#05f5ca px-4 color-gray-200 bg-gray-800"
+          type="text"
+          placeholder="Search"
+          v-model="searchTerm"
+        />
+        <div class="flex py-2 color-gray-300 justify-center items-center gap-1">
+          <p>powered by</p>
+          <NuxtImg src="/logos/logo-orama-dark.svg" width="80" height="25" alt="Orama logo"/>
+        </div>
+      </div>
     </div>
     <template
-      v-for="item in results"
+      v-if="searchResults?.hits.length"
+      v-for="item in searchResults?.hits"
       :key="`${item.conference}${item.date}`"
     >
       <AgendaItem
-        v-if="!item.private"
-        :link="item.link"
-        :date="item.date"
-        :title="`${item.conference} ${item.flag}`"
-        :description="item.talk"
+        v-if="!item.document.private"
+        :link="item.document.link"
+        :date="item.document.date"
+        :title="`${item.document.conference} ${item.document.flag}`"
+        :description="item.document.talk"
       />
     </template>
+    <div class="container mx-auto grid place-content-center flex-1" v-else>
+      <p class="text-2xl color-gray-200">No results found</p>
+    </div>
   </section>
 </template>
 
@@ -45,7 +54,7 @@ const schema: OramaSchema<Agenda[number]> = {
   flag: "string",
   link: "string",
 };
-const { results, searchTerm , searchResultData, handlerSearch} = await useOramaSearch({
+const { searchTerm, searchResults } = await useOramaSearch({
   data: agendaOrderedByDate,
   schema,
 });

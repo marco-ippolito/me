@@ -6,7 +6,7 @@
       <p class="color-gray-200">{{ props.description }}</p>
     </div>
     <div class="flex flex-col">
-      <p class="text-sm">If you want to know more about this talk</p>
+      <p class="text-sm">Discover more about the talk</p>
       <a
         :href="props.link"
         target="_blank"
