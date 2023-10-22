@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto flex flex-col min-h-[70dvh]">
     <div class="flex flex-wrap justify-between items-center">
-      <h1 class="text-6xl m10 flex-1">Agenda</h1>
+      <h1 class="text-6xl m10 flex-1">Speaker @</h1>
       <div class="w-full md:w-1/3 lg:w-1/5 w-1/4 flex flex-col mr-10">
         <input
           class="mx-auto w-4/5 bg-transparent border border-gray-300 text-2xl rounded-lg placeholder:color-gray-200 focus:outline-none focus:border-#05f5ca px-4 color-gray-200 bg-gray-800"
@@ -24,7 +24,7 @@
         v-if="!item.document.private"
         :link="item.document.link"
         :date="item.document.date"
-        :title="`${item.document.conference} ${item.document.flag}`"
+        :title="`${item.document.conference} (${item.document.city}) ${item.document.flag}`"
         :description="item.document.talk"
       />
     </template>
@@ -50,6 +50,7 @@ const schema: OramaSchema<Agenda[number]> = {
   date: "string",
   conference: "string",
   talk: "string",
+  city: "string",
   private: "boolean",
   flag: "string",
   link: "string",

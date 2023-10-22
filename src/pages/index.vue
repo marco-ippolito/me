@@ -1,10 +1,9 @@
 <template>
-  <svg class="absolute">
-    <filter id="noiseFilter2">
+  <svg class="absolute w-sceen">
+    <filter id="noiseFilter">
       <feTurbulence
         type="fractalNoise"
         baseFrequency="0.65"
-        numOctaves="3"
         result="noise"
         stitchTiles="stitch"
       />
@@ -22,7 +21,7 @@
     class="flex flex-col w-full h-full items-center justify-center scroll-smooth mt-5 lg:mt-0 gap-5 lg:gap-10 scroll-smooth"
   >
     <Socials />
-    <SectionHome class="grainy"/>
+    <SectionHome />
     <SectionAgenda class="pt-10 h-full" id="agenda" />
     <div class="w-full text-center">
       <p class="p-4 text-xl">{{ new Date().getFullYear() }}</p>
@@ -31,6 +30,9 @@
 </template>
 
 <style>
+body{
+  overflow-x: auto;
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -62,26 +64,17 @@
   animation: flow 6s ease infinite;
 }
 .grainy::before {
-  position: fixed;
-  light: 0;
+  position: absolute;
   top: 0;
+  left: 0;
   content: "";
-  width: 100%;
-  height: 91dvh;
+  width: 98%;
+  border: 1px solid rgb(255, 255, 255);
+  height: 90.5dvh;
   z-index: -9;
-  opacity: 15%;
-  background: #202020;
-  filter: url(#noiseFilter2);
+  opacity: 25%;
+  background: #000000;
+  filter: url(#noiseFilter);
   pointer-events: none;
-  animation: noise 1s steps(2) infinite;
-}
-
-@keyframes noise {
-  from {
-    transform: translate(0, 0);
-  }
-  to {
-    transform: translate(2rem, -10px);
-  }
 }
 </style>
