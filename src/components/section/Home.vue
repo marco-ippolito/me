@@ -1,6 +1,6 @@
 <template>
   <section
-    class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2"
+    class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2 grainy"
   >
     <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
       <header class="flex-1 self-center mt-10">
