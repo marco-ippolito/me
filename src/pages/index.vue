@@ -1,24 +1,6 @@
 <template>
-  <svg class="absolute w-sceen">
-    <filter id="noiseFilter">
-      <feTurbulence
-        type="fractalNoise"
-        baseFrequency="0.45"
-        result="noise"
-        stitchTiles="stitch"
-      />
-    </filter>
-  </svg>
-
-  <NuxtImg
-    class="absolute top-0 left-0 w-full h-full object-cover -z-10"
-    sizes="100vw sm:50vw md:400px"
-    src="/img/bg.png"
-    alt="background"
-    format="webp"
-  />
   <div
-    class="flex flex-col w-full h-full items-center justify-center scroll-smooth mt-5 lg:mt-0 gap-5 lg:gap-10 scroll-smooth"
+    class="flex flex-col w-full h-full items-center justify-center mt-5 lg:mt-0 gap-5 lg:gap-10 scroll-smooth overflow-x-hidden"
   >
     <Socials />
     <SectionHome />
@@ -59,19 +41,5 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: flow 6s ease infinite;
-}
-.grainy::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 98%;
-  border: 1px solid rgb(255, 255, 255);
-  height: 90.5dvh;
-  z-index: -9;
-  opacity: 15%;
-  background: #000000;
-  filter: url(#noiseFilter);
-  pointer-events: none;
 }
 </style>

@@ -1,6 +1,7 @@
 <template>
   <ul
-    class="w-full fixed flex gap-4 backdrop-blur-lg top-0 z-50 p-4 bg-opacity-50 justify-end pr-20"
+    ref="socialsRef"
+    class="w-full fixed flex gap-4 top-0 z-50 p-4 bg-opacity-50 justify-end pr-20"
   >
     <li>
       <NuxtLink to="/#agenda" aria-label="prova" active-class="color-white">
@@ -20,5 +21,24 @@
 </template>
 
 <script setup lang="ts">
+import { useWindowScroll } from "@vueuse/core";
 import socials from "~/static/socials.json";
+const socialsRef = ref<HTMLElement | null>(null);
+const isIntersecting = ref();
+const { x, y } = useWindowScroll();
+watch(y, () => {
+  if (y.value > 250) {
+    socialsRef.value?.classList.add(
+      "backdrop-filter",
+      "backdrop-blur-xl",
+      "bg-black"
+    );
+  } else {
+    socialsRef.value?.classList.remove(
+      "backdrop-filter",
+      "backdrop-blur-xl",
+      "bg-black"
+    );
+  }
+});
 </script>

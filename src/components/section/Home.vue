@@ -2,6 +2,14 @@
   <section
     class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2 grainy"
   >
+    <!--TODO: check how improve this part-->
+    <NuxtImg
+      class="absolute w-screen object-cover -z-10 h-full"
+      sizes="100vw sm:50vw md:400px"
+      src="/img/bg.png"
+      alt="background"
+      format="webp"
+    />
     <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
       <header class="flex-1 self-center mt-10">
         <h1 class="name font-big mb-10">
@@ -22,7 +30,7 @@
         />
       </div>
     </main>
-    <aside class="lg:flex px-10">
+    <aside class="flex flex-col items-center md:flex-row px-10">
       <div class="flex-1">
         <p class="text-xl lg:text-3xl card-mobile">
           I'm a
@@ -57,7 +65,6 @@
 
 <style>
 .glass {
-  border: 1px solid #514d56;
   border-radius: 0.8rem;
   color: #f5f5f5;
   background-color: #242424;
@@ -66,8 +73,10 @@
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-  .home {
+.home {
+  position: relative;
+  height: 100%;
+  @media screen and (min-width: 1280px) {
     height: 100vh;
   }
 }

@@ -1,10 +1,10 @@
 <template>
   <section class="container mx-auto flex flex-col min-h-[70dvh]">
     <div class="flex flex-wrap items-center">
-      <h1 class="text-6xl m-10">Talks</h1>
-      <div class="w-full md:w-1/3 lg:w-1/5 w-1/4 flex flex-col mr-10 mt-10">
+      <h1 class="text-6xl mx-10 md:m-10">Talks</h1>
+      <div class="w-full md:w-1/3 lg:w-1/5 w-1/4 flex flex-col mx-10 mt-10">
         <input
-          class="mx-auto w-4/5 bg-transparent border border-emerald-300 text-2xl rounded-lg placeholder:color-gray-200 focus:outline-none focus:border-#05f5ca px-4 color-gray-200 bg-gray-800"
+          class="mx-auto w-4/5 bg-transparent border-2 border-green-300 text-2xl rounded-lg placeholder:color-gray-200 focus:outline-none focus:border-emerald-200 px-4 color-gray-200"
           type="text"
           placeholder="Search"
           v-model="searchTerm"
@@ -20,39 +20,41 @@
         </div>
       </div>
     </div>
-    <div>
-      <h2 class="text-4xl m-10">Next talks</h2>
-      <template v-if="talks.nextTalks.length">
-        <AgendaItem
-          v-for="item in talks.nextTalks"
-          :key="`${item.conference}${item.date}`"
-          :link="item.document.link"
-          :date="item.document.date"
-          :title="`${item.document.conference}`"
-          :description="item.document.talk"
-          :city="`${item.document.city} ${item.document.flag}`"
-        />
-      </template>
-      <div class="container mx-auto grid place-content-center flex-1" v-else>
-        <p class="text-2xl color-gray-200">No results found</p>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div>
+        <h2 class="text-4xl m-10">Next talks</h2>
+        <template v-if="talks.nextTalks.length">
+          <AgendaItem
+            v-for="item in talks.nextTalks"
+            :key="`${item.conference}${item.date}`"
+            :link="item.document.link"
+            :date="item.document.date"
+            :title="`${item.document.conference}`"
+            :description="item.document.talk"
+            :city="`${item.document.city} ${item.document.flag}`"
+          />
+        </template>
+        <div class="container mx-auto grid place-content-center flex-1" v-else>
+          <p class="text-2xl color-gray-200">No results found</p>
+        </div>
       </div>
-    </div>
-    <div>
-      <h2 class="text-4xl m-10">Previous talks</h2>
-      <template v-if="talks.previousTalks.length">
-        <AgendaItem
-          v-for="item in talks.previousTalks"
-          :key="`${item.conference}${item.date}`"
-          :link="item.document.link"
-          :date="item.document.date"
-          :title="`${item.document.conference}`"
-          :description="item.document.talk"
-          :city="`${item.document.city} ${item.document.flag}`"
-        />
-      </template>
+      <div>
+        <h2 class="text-4xl m-10">Previous talks</h2>
+        <template v-if="talks.previousTalks.length">
+          <AgendaItem
+            v-for="item in talks.previousTalks"
+            :key="`${item.conference}${item.date}`"
+            :link="item.document.link"
+            :date="item.document.date"
+            :title="`${item.document.conference}`"
+            :description="item.document.talk"
+            :city="`${item.document.city} ${item.document.flag}`"
+          />
+        </template>
 
-      <div class="container mx-auto grid place-content-center flex-1" v-else>
-        <p class="text-2xl color-gray-200">No results found</p>
+        <div class="container mx-auto grid place-content-center flex-1" v-else>
+          <p class="text-2xl color-gray-200">No results found</p>
+        </div>
       </div>
     </div>
   </section>
