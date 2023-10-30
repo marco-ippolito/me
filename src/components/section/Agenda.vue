@@ -63,25 +63,35 @@
 <script setup lang="ts">
 import agenda from "~/static/agenda.json";
 import { useOramaSearch } from "~/composables/useOramaSearch";
-
+import { create, insert } from "@orama/orama";
 const agendaOrderedByDate = agenda.sort((a, b) => {
   const dateA = getTimeFromItalianFormat(a.date);
   const dateB = getTimeFromItalianFormat(b.date);
   return dateB - dateA;
 });
 
-type Agenda = typeof agendaOrderedByDate;
+type AgendaArray = typeof agendaOrderedByDate;
+type Agenda = AgendaArray[number];
 
-const schema: Partial<Agenda[number]> = {
+const schema: OramaSchema<Agenda> = {
   conference: "string",
   talk: "string",
   city: "string",
-};
+  pinc: "afd",
+} as const;
 
 const { searchTerm, searchResults } = await useOramaSearch({
   data: agendaOrderedByDate,
   schema,
 });
+
+// const db = await create({
+//   schema,
+// });
+
+// for (const item of agendaOrderedByDate) {
+//   await insert(db, item);
+// }
 
 const talks = computed(() => {
   if (

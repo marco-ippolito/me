@@ -1,15 +1,15 @@
 <template>
+
+    <NuxtImg
+    class="absolute w-screen object-cover -z-10 h-full top-0 bg-black"
+    src="/img/bg.png"
+    alt="background"
+    format="webp"
+    />
   <section
     class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2 grainy"
   >
     <!--TODO: check how improve this part-->
-    <NuxtImg
-      class="absolute w-screen object-cover -z-10 h-full"
-      sizes="100vw sm:50vw md:400px"
-      src="/img/bg.png"
-      alt="background"
-      format="webp"
-    />
     <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
       <header class="flex-1 self-center mt-10">
         <h1 class="name font-big mb-10">
