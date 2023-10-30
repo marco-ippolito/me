@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="flex flex-col">
       <div>
         <h2 class="text-4xl m-10">Next talks</h2>
         <template v-if="talks.nextTalks.length">
@@ -64,7 +64,6 @@
 import agenda from "~/static/agenda.json";
 import {
   useOramaSearch,
-  type OramaSchemaCustom,
 } from "~/composables/useOramaSearch";
 
 const agendaOrderedByDate = agenda.sort((a, b) => {
