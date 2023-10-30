@@ -66,9 +66,6 @@ import {
   useOramaSearch,
   type OramaSchemaCustom,
 } from "~/composables/useOramaSearch";
-import type { Orama, Results, TypedDocument } from "@orama/orama";
-import { create, insert, search } from "@orama/orama";
-import { computedAsync } from "@vueuse/core";
 
 const agendaOrderedByDate = agenda.sort((a, b) => {
   const dateA = getTimeFromItalianFormat(a.date);
@@ -76,38 +73,17 @@ const agendaOrderedByDate = agenda.sort((a, b) => {
   return dateB - dateA;
 });
 
-type AgendaArray = typeof agendaOrderedByDate;
-// type Agenda = AgendaArray[number];
 const schema = {
   conference: "string",
   talk: "string",
   city: "string",
 } as const;
 
-// const { searchTerm, searchResults} = await useOramaSearch({
-//   data: agendaOrderedByDate,
-//   schema,
-// });
-
-// this part is the same that return the composable
-type Schema = TypedDocument<Orama<typeof schema>>;
-const searchTerm = ref("");
-
-const db:Orama<typeof schema> = await create({
+const { searchTerm, searchResults} = await useOramaSearch({
+  data: agendaOrderedByDate,
   schema,
 });
 
-for (const item of agendaOrderedByDate) {
-  await insert(db, item);
-}
-const searchResults = computedAsync(async () => {
-  const results: Results<Schema> = await search(db, {
-    term: searchTerm.value,
-    limit: 1000,
-  });
-  return results;
-});
-// END
 const talks = computed(() => {
   if (
     !searchResults.value?.hits.length ||
