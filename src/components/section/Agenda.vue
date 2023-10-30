@@ -26,7 +26,7 @@
         <template v-if="talks.nextTalks.length">
           <AgendaItem
             v-for="item in talks.nextTalks"
-            :key="`${item.conference}${item.date}`"
+            :key="`${item.document.conference}${item.document.date}`"
             :link="item.document.link"
             :date="item.document.date"
             :title="`${item.document.conference}`"
@@ -43,7 +43,7 @@
         <template v-if="talks.previousTalks.length">
           <AgendaItem
             v-for="item in talks.previousTalks"
-            :key="`${item.conference}${item.date}`"
+            :key="`${item.document.city}${item.document.date}`"
             :link="item.document.link"
             :date="item.document.date"
             :title="`${item.document.conference}`"
@@ -62,8 +62,14 @@
 
 <script setup lang="ts">
 import agenda from "~/static/agenda.json";
-import { useOramaSearch } from "~/composables/useOramaSearch";
-import { create, insert } from "@orama/orama";
+import {
+  useOramaSearch,
+  type OramaSchemaCustom,
+} from "~/composables/useOramaSearch";
+import type { Orama, Results, TypedDocument } from "@orama/orama";
+import { create, insert, search } from "@orama/orama";
+import { computedAsync } from "@vueuse/core";
+
 const agendaOrderedByDate = agenda.sort((a, b) => {
   const dateA = getTimeFromItalianFormat(a.date);
   const dateB = getTimeFromItalianFormat(b.date);
@@ -71,28 +77,37 @@ const agendaOrderedByDate = agenda.sort((a, b) => {
 });
 
 type AgendaArray = typeof agendaOrderedByDate;
-type Agenda = AgendaArray[number];
-
-const schema: OramaSchema<Agenda> = {
+// type Agenda = AgendaArray[number];
+const schema = {
   conference: "string",
   talk: "string",
   city: "string",
-  pinc: "afd",
 } as const;
 
-const { searchTerm, searchResults } = await useOramaSearch({
-  data: agendaOrderedByDate,
-  schema,
-});
-
-// const db = await create({
+// const { searchTerm, searchResults} = await useOramaSearch({
+//   data: agendaOrderedByDate,
 //   schema,
 // });
 
-// for (const item of agendaOrderedByDate) {
-//   await insert(db, item);
-// }
+// this part is the same that return the composable
+type Schema = TypedDocument<Orama<typeof schema>>;
+const searchTerm = ref("");
 
+const db:Orama<typeof schema> = await create({
+  schema,
+});
+
+for (const item of agendaOrderedByDate) {
+  await insert(db, item);
+}
+const searchResults = computedAsync(async () => {
+  const results: Results<Schema> = await search(db, {
+    term: searchTerm.value,
+    limit: 1000,
+  });
+  return results;
+});
+// END
 const talks = computed(() => {
   if (
     !searchResults.value?.hits.length ||

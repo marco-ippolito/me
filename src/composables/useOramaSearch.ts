@@ -13,19 +13,22 @@ export type AllowedValues =
 	| "enum[]"
 	| `vector[${number}]`;
 
-type OramaSchema<T extends {}> = Readonly<
+export type OramaSchemaCustom<T extends {}> = Readonly<
 	Partial<Record<keyof T, AllowedValues>>
 >;
-
-export async function useOramaSearch<T extends Record<keyof T, unknown>>({
+// biome-ignore lint: suspicious/noExplicitAny
+export async function useOramaSearch<T extends Record<keyof T, any>>({
 	data,
 	schema,
 }: {
 	data: T[];
-	schema: OramaSchema<T>;
+	schema: OramaSchemaCustom<T>;
 }) {
+	type DbDocument = TypedDocument<Orama<OramaSchemaCustom<T>>>;
+
 	const searchTerm = ref("");
-	const db = await create({
+
+	const db: Orama<OramaSchemaCustom<T>> = await create({
 		schema,
 	});
 
@@ -34,7 +37,7 @@ export async function useOramaSearch<T extends Record<keyof T, unknown>>({
 	}
 
 	const searchResults = computedAsync(async () => {
-		const results = await search(db, {
+		const results: Results<DbDocument> = await search(db, {
 			term: searchTerm.value,
 			limit: 1000,
 		});
