@@ -20,7 +20,7 @@
     "@nuxt/image": "1.0.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@unocss/nuxt": "^0.57.3",
-    "nuxt": "^3.8.0",
+    "nuxt": "^3.8.1",
     "serve": "^14.2.1"
   },
   "dependencies": {
