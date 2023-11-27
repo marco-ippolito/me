@@ -160,14 +160,6 @@
 		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
 	},
 	{
-		"date": "02/12/2023",
-		"conference": "Devfest Alps 2023",
-		"talk": "Measuring the cost of a GraphQL Query",
-		"private": false,
-		"flag": "🇮🇹",
-		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
-	},
-	{
 		"date": "25/11/2023",
 		"conference": "Milano Cloud DevFest",
 		"private": false,
