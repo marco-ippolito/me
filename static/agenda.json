@@ -166,5 +166,13 @@
 		"private": false,
 		"flag": "🇮🇹",
 		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
+	},
+	{
+		"date": "25/11/2023",
+		"conference": "Milano Cloud DevFest",
+		"private": false,
+		"talk": "Developers in Danger: How supply chain attacks target devs, not production",
+		"flag": "🇮🇹",
+		"link": "https://gdg.community.dev/events/details/google-gdg-cloud-milano-presents-devfest-gdg-cloud-milano-2023/"
 	}
 ]
