@@ -24,6 +24,6 @@
     "serve": "^14.2.1"
   },
   "dependencies": {
-    "@vercel/analytics": "^1.1.2"
+    "@vercel/analytics": "^1.1.3"
   }
 }
