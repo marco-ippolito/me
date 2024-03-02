@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: true,
   modules: [
-    '@nuxtjs@/sitemap',
+    '@nuxtjs/sitemap',
     '@nuxtjs/robots',
     '@unocss/nuxt',
     [
