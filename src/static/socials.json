@@ -1,37 +1,37 @@
 [
-	{
-		"name": "github",
-		"url": "https://github.com/marco-ippolito",
-		"logo": "/logos/github-mark-white.png",
-		"aria-label": "Link to Marco Ippolito's GitHub profile",
-		"alt": "GitHub logo"
-	},
-	{
-		"name": "linkedin",
-		"url": "https://www.linkedin.com/in/marcoippolito2021/",
-		"logo": "/logos/In-White-72.png",
-		"aria-label": "Link to Marco Ippolito's Linkedin profile",
-		"alt": "LinkedIn logo"
-	},
-	{
-		"name": "twitch",
-		"url": "https://www.twitch.tv/satanacchio_",
-		"logo": "/logos/TwitchGlitchWhite.svg",
-		"aria-label": "Link to Marco Ippolito's Twitch profile",
-		"alt": "Twitch logo"
-	},
-	{
-		"name": "twitter",
-		"url": "https://twitter.com/satanacchio",
-		"logo": "/logos/X-White.png",
-		"aria-label": "Link to Marco Ippolito's Twitter profile",
-		"alt": "Twitter logo"
-	},
-	{
-		"name": "youtube",
-		"url": "https://www.youtube.com/channel/UCUHTfWzj1ZD103-k6gm9LfA",
-		"logo": "/logos/youtube_social_circle_dark.png",
-		"aria-label": "Link to Marco Ippolito's YouTube channel",
-		"alt": "YouTube logo"
-	}
+  {
+    "name": "github",
+    "url": "https://github.com/marco-ippolito",
+    "logo": "/logos/github-mark-white.png",
+    "aria-label": "Link to Marco Ippolito's GitHub profile",
+    "alt": "GitHub logo"
+  },
+  {
+    "name": "linkedin",
+    "url": "https://www.linkedin.com/in/marcoippolito2021/",
+    "logo": "/logos/In-White-72.png",
+    "aria-label": "Link to Marco Ippolito's Linkedin profile",
+    "alt": "LinkedIn logo"
+  },
+  {
+    "name": "twitch",
+    "url": "https://www.twitch.tv/satanacchio_",
+    "logo": "/logos/TwitchGlitchWhite.svg",
+    "aria-label": "Link to Marco Ippolito's Twitch profile",
+    "alt": "Twitch logo"
+  },
+  {
+    "name": "twitter",
+    "url": "https://twitter.com/satanacchio",
+    "logo": "/logos/X-White.png",
+    "aria-label": "Link to Marco Ippolito's Twitter profile",
+    "alt": "Twitter logo"
+  },
+  {
+    "name": "youtube",
+    "url": "https://www.youtube.com/channel/UCUHTfWzj1ZD103-k6gm9LfA",
+    "logo": "/logos/youtube_social_circle_dark.png",
+    "aria-label": "Link to Marco Ippolito's YouTube channel",
+    "alt": "YouTube logo"
+  }
 ]

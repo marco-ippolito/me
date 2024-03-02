@@ -1,30 +1,35 @@
+<script setup lang="ts">
+import Link from './Link'
+
+const props = defineProps<{
+  title: string
+  description: string
+  date: string
+  link: string
+  city: string
+}>()
+</script>
+
 <template>
-  <Link :to="props.link" target="blank" class="decoration-none text-white">
+  <Link :to="props.link" target="blank" class="text-white decoration-none">
     <article class="agenda-item">
-      <div class="text-2xl flex flex-col -gap-2">
-        <h2 class="color-#05f5ca font-bold">{{ props.title }}</h2>
-        <p class="color-gray-200">{{ props.description }}</p>
+      <div class="flex flex-col text-2xl -gap-2">
+        <h2 class="font-bold color-#05f5ca">
+          {{ props.title }}
+        </h2>
+        <p class="color-gray-200">
+          {{ props.description }}
+        </p>
       </div>
-      <p class="text-2xl text-left lg:text-center">
+      <p class="text-left text-2xl lg:text-center">
         {{ city }}
       </p>
-      <p class="text-2xl color-gray-200 text-left lg:text-right">
+      <p class="text-left text-2xl color-gray-200 lg:text-right">
         {{ props.date }}
       </p>
     </article>
   </Link>
 </template>
-<script setup lang="ts">
-import Link from "./Link";
-
-const props = defineProps<{
-  title: string;
-  description: string;
-  date: string;
-  link: string;
-  city: string;
-}>();
-</script>
 
 <style>
 .agenda-item {
