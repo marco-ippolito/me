@@ -21,7 +21,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@unocss/nuxt": "^0.59.4",
     "nuxt": "^3.11.2",
-    "serve": "^14.2.1"
+    "serve": "^14.2.3"
   },
   "dependencies": {
     "@vercel/analytics": "^1.2.2"
