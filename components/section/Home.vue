@@ -26,10 +26,9 @@
       <div class="flex-1">
         <p class="text-xl lg:text-3xl card-mobile">
           I'm a
-          <span class="font-bold">Senior Developer Experience Engineer</span> at
-          <span class="linear-animated">NearForm</span>. Passionate about the
-          open source world, especially the Node.js ecosystem, I actively
-          contribute to projects like Node.js, Fastify, Mercurius, and more.
+          <span class="font-bold">Senior Security Engineer</span> at
+          <span class="linear-animated">HeroDevs</span>. Passionate about the
+          open source world, I'm a releaser and member of the Node.js Technical Steering Comittee.
         </p>
       </div>
       <div class="flex-1 flex items-center justify-center">
