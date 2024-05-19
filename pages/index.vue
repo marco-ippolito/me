@@ -1,20 +1,10 @@
 <template>
-  <NuxtImg
-    class="absolute top-0 left-0 w-full h-full object-cover -z-10"
-    sizes="100vw sm:50vw md:400px"
-    src="/img/bg.png"
-    alt="background"
-    format="webp"
-  />
   <div
     class="flex flex-col w-full h-full items-center justify-center scroll-smooth mt-5 lg:mt-0 gap-5 lg:gap-10 scroll-smooth"
   >
     <Socials />
     <SectionHome />
     <SectionAgenda class="pt-10 h-full" id="agenda" />
-    <div class="w-full text-center">
-      <p class="p-4 text-xl">{{ new Date().getFullYear() }}</p>
-    </div>
   </div>
 </template>
 

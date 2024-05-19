@@ -16,10 +16,10 @@
 2
 <script setup lang="ts">
 const props = defineProps<{
-  title: string;
-  description: string;
-  date: string;
-  link: string;
+	title: string;
+	description: string;
+	date: string;
+	link: string;
 }>();
 </script>
 
