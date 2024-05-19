@@ -31,25 +31,6 @@
           open source world, I'm a releaser and member of the Node.js Technical Steering Comittee.
         </p>
       </div>
-      <div class="flex-1 flex items-center justify-center">
-        <article
-          class="glass lg:gap-8 gap-4 max-w-xs lg:max-w-lg flex items-center flex-col lg:flex-row mt-8"
-        >
-          <NearformLogo />
-          <p class="text-xl">
-            NearForm creates software solutions that accelerate enterprise
-            success, enrich customer experience and contribute to the
-            development of our community.
-
-            <a
-              href="https://www.nearform.com/"
-              target="_blank"
-              class="color-white"
-              >About it</a
-            >
-          </p>
-        </article>
-      </div>
     </aside>
   </section>
 </template>
