@@ -1,7 +1,7 @@
 <template>
   <section class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2 lg:items-center">
     <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
-      <header class="flex-1 self-center">
+      <header class="flex-1 self-center mt-10 lg:mt-0">
         <h1 class="name font-big mb-10">
           Marco
           <span class="linear-animated">Ippolito</span>
