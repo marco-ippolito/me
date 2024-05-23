@@ -1,5 +1,5 @@
 <template>
-  <section class="container home flex flex-col justify-center items-center gap-10">
+  <section class="container home flex flex-col justify-center items-center gap-10 overflow-x-hidden">
     <main class="flex flex-wrap items-center justify-between px-10" >
       <header class="mt-10 md:mt-0 w-1/2" >
         <h1 class="name font-big">
@@ -33,7 +33,6 @@
   padding: 1.6rem 2.4rem;
   width: 100%;
 }
-
 @media screen and (min-width: 768px) {
   .home {
     height: 100dvh;
