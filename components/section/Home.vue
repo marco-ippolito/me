@@ -1,20 +1,17 @@
 <template>
-  <section class="container home flex flex-col justify-start lg:justify-center gap-5 lg:gap-2 lg:items-center">
-    <main class="flex flex-col lg:flex-row px-10 lg:gap-5">
-      <header class="flex-1 self-center mt-10 lg:mt-0">
-        <h1 class="name font-big mb-10">
+  <section class="container home flex flex-col justify-center items-center gap-10">
+    <main class="flex flex-wrap items-center justify-between px-10" >
+      <header class="mt-10 md:mt-0 w-1/2" >
+        <h1 class="name font-big">
           Marco
           <span class="linear-animated">Ippolito</span>
         </h1>
       </header>
-      <div class="flex-1 flex flex-col gap-4 items-center justify-center px-10 relative">
         <NuxtImg height="300" width="300" src="/img/profile-removebg.png" alt="Marco Ippolito's profile photo"
           class="rounded-full" sizes="300 sm:380" />
-      </div>
     </main>
-    <aside class="lg:flex px-10">
-      <div class="flex-1">
-        <p class="text-xl lg:text-3xl">
+    <aside class="px-10 mt-4">
+        <p class="text-xl sm:text-3xl">
           I'm a
           <span class="font-bold">Senior Security Engineer</span> at
           <span class="linear-animated">
@@ -22,7 +19,6 @@
           </span>. Passionate about the
           open source world, I'm a releaser and member of the Node.js Technical Steering Comittee.
         </p>
-      </div>
     </aside>
   </section>
 </template>
