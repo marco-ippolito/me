@@ -24,13 +24,16 @@ body {
 }
 
 .font-big {
-  font-size: 4rem;
-  margin: 0;
-  @media screen and (min-width: 1024px) {
-    font-size: 8rem;
+  --size: 3rem;
+  font-size: calc(var(--size) * 1.5);
+  @media screen and (min-width: 768px) {
+    font-size: calc(var(--size) * 2);
   }
-  @media screen and (min-width: 1200px) {
-    font-size: 10rem;
+  @media screen and (min-width: 992px) {
+    font-size: calc(var(--size) * 2.5);
+  }
+  @media screen and (min-width: 1290px) {
+    font-size: calc(var(--size) * 3);
   }
 }
 

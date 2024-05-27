@@ -24,12 +24,10 @@
 }
 
 .name {
-  flex-shrink: 0;
   color: #fff;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0.25rem;
 }
 .linear-animated {
   background: var(--linear-gradient);
