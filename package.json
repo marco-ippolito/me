@@ -17,7 +17,7 @@
 		"@commitlint/cli": "^19.5.0",
 		"@commitlint/config-conventional": "^19.5.0",
 		"@nuxt/devtools": "latest",
-		"@nuxt/image": "1.8.0",
+		"@nuxt/image": "1.8.1",
 		"@nuxtjs/google-fonts": "^3.2.0",
 		"@unocss/nuxt": "^0.63.1",
 		"nuxt": "^3.13.2",
