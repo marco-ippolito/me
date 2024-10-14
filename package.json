@@ -19,7 +19,7 @@
 		"@nuxt/devtools": "latest",
 		"@nuxt/image": "1.8.1",
 		"@nuxtjs/google-fonts": "^3.2.0",
-		"@unocss/nuxt": "^0.63.3",
+		"@unocss/nuxt": "^0.63.4",
 		"nuxt": "^3.13.2",
 		"serve": "^14.2.3"
 	},
