@@ -5,7 +5,8 @@
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
 		"flag": "🇩🇪",
-		"link": "https://nodecongress.com/"
+		"link": "https://nodecongress.com/",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "12/05/2023",
@@ -29,7 +30,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇪🇸",
-		"link": "https://events.linuxfoundation.org/open-source-summit-europe/"
+		"link": "https://events.linuxfoundation.org/open-source-summit-europe/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "6/11/2023",
@@ -37,7 +39,8 @@
 		"private": false,
 		"talk": "Your First Node.js Contribution",
 		"flag": "🇮🇪",
-		"link": "https://www.nodeconf.eu/"
+		"link": "https://www.nodeconf.eu/",
+		"slides": "https://docs.google.com/presentation/d/1nAHpHshvucVSkLfxuLyO5MLjAqmei1yn4LUIYrpSjaI"
 	},
 	{
 		"date": "6/11/2023",
@@ -45,7 +48,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇮🇪",
-		"link": "https://www.nodeconf.eu/"
+		"link": "https://www.nodeconf.eu/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "30/06/2023",
@@ -53,7 +57,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇮🇹",
-		"link": "https://www.agilemovement.it/workingsoftware/"
+		"link": "https://www.agilemovement.it/workingsoftware/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "27/06/2023",
@@ -61,7 +66,8 @@
 		"private": false,
 		"talk": "Exploring Node.js test runner",
 		"flag": "🇮🇹",
-		"link": "https://www.youtube.com/watch?v=TgIHCxJVHOo&t=1282s"
+		"link": "https://www.youtube.com/watch?v=TgIHCxJVHOo&t=1282s",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "25/08/2023",
@@ -69,7 +75,8 @@
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
 		"flag": "🇺🇸",
-		"link": "https://www.javascriptandfriends.com/"
+		"link": "https://www.javascriptandfriends.com/",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "03/07/2023",
@@ -77,7 +84,8 @@
 		"talk": "Measuring the cost of a GraphQL Query",
 		"private": false,
 		"flag": "🇪🇸",
-		"link": "https://www.devbcn.com/talk/462757"
+		"link": "https://www.devbcn.com/talk/462757",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "23/09/2023",
@@ -85,7 +93,8 @@
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
 		"flag": "🇮🇹",
-		"link": "https://www.cometocode.it/"
+		"link": "https://www.cometocode.it/",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "07/09/2023",
@@ -93,7 +102,8 @@
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
 		"flag": "🇮🇹",
-		"link": "https://www.linkedin.com/feed/update/urn:li:activity:7096827916071632897"
+		"link": "https://www.linkedin.com/feed/update/urn:li:activity:7096827916071632897",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "11/10/2023",
@@ -101,7 +111,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇲🇦",
-		"link": "https://devoxx.ma/speaker-details/?id=12001"
+		"link": "https://devoxx.ma/speaker-details/?id=12001",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "11/12/2023",
@@ -109,7 +120,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇸🇬",
-		"link": "https://javascript-conference.com/javascript-practices-tools/security-vulnerabilities-in-nodejs/"
+		"link": "https://javascript-conference.com/javascript-practices-tools/security-vulnerabilities-in-nodejs/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "11/12/2023",
@@ -117,7 +129,8 @@
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
 		"flag": "🇸🇬",
-		"link": "https://javascript-conference.com/general-web-development/optimize-graphql-query/"
+		"link": "https://javascript-conference.com/general-web-development/optimize-graphql-query/",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "07/12/2023",
@@ -125,7 +138,8 @@
 		"talk": "Exploring Node.js test runner",
 		"private": false,
 		"flag": "🇩🇪",
-		"link": "https://testjssummit.com/"
+		"link": "https://testjssummit.com/",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "19/11/2023",
@@ -133,7 +147,8 @@
 		"private": false,
 		"talk": "Measuring the cost of a GraphQL Query",
 		"flag": "🇮🇹",
-		"link": "https://devfest.gdgpescara.it/"
+		"link": "https://devfest.gdgpescara.it/",
+		"slides": "https://docs.google.com/presentation/d/1oJ18GBZ_DCX8wwrqtULrP6wEVwBV17HoFOlxNqCbxlI/edit#slide=id.g2dae38c9506_0_7071"
 	},
 	{
 		"date": "19/11/2023",
@@ -141,7 +156,8 @@
 		"private": false,
 		"talk": "Your First Node.js Contribution",
 		"flag": "🇮🇹",
-		"link": "https://devfest.gdgpescara.it/"
+		"link": "https://devfest.gdgpescara.it/",
+		"slides": "https://docs.google.com/presentation/d/1nAHpHshvucVSkLfxuLyO5MLjAqmei1yn4LUIYrpSjaI"
 	},
 	{
 		"date": "30/10/2023",
@@ -149,7 +165,8 @@
 		"private": false,
 		"talk": "OWASP top 10 vulnerabilities in Node.js",
 		"flag": "🇿🇲",
-		"link": "https://mojaloop.io/"
+		"link": "https://mojaloop.io/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "02/12/2023",
@@ -157,7 +174,8 @@
 		"talk": "Exploring Node.js test runner",
 		"private": false,
 		"flag": "🇮🇹",
-		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/"
+		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2023/",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "25/11/2023",
@@ -165,7 +183,8 @@
 		"private": false,
 		"talk": "Developers in Danger: How supply chain attacks target devs, not production",
 		"flag": "🇮🇹",
-		"link": "https://gdg.community.dev/events/details/google-gdg-cloud-milano-presents-devfest-gdg-cloud-milano-2023/"
+		"link": "https://gdg.community.dev/events/details/google-gdg-cloud-milano-presents-devfest-gdg-cloud-milano-2023/",
+		"slides": "https://docs.google.com/presentation/d/18FS6KtFgrYRd4qACmLJZUFBHljsfSHfjx8JZ88UD8Rc"
 	},
 	{
 		"date": "22/02/2024",
@@ -173,7 +192,8 @@
 		"private": false,
 		"talk": "Exploring Node.js test runner",
 		"flag": "🇨🇦",
-		"link": "https://confoo.ca/en/2024"
+		"link": "https://confoo.ca/en/2024",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "12/04/2024",
@@ -181,7 +201,8 @@
 		"private": false,
 		"talk": "Advanced JavaScript code search: Abstract Syntax Tree analysis",
 		"flag": "🇮🇹",
-		"link": "https://2024.jsday.it/"
+		"link": "https://2024.jsday.it/",
+		"slides": "https://docs.google.com/presentation/d/1Djvj0vcE9_mIit1rnLOzIpq3KO24y88dzuMP0xkPm3M"
 	},
 	{
 		"date": "10/04/2024",
@@ -189,7 +210,8 @@
 		"private": false,
 		"talk": "Developers in Danger: How Supply Chain Attacks Target Devs, Not Production",
 		"flag": "🇬🇧",
-		"link": "https://javascript-conference.com/london/"
+		"link": "https://javascript-conference.com/london/",
+		"slides": "https://docs.google.com/presentation/d/18FS6KtFgrYRd4qACmLJZUFBHljsfSHfjx8JZ88UD8Rc"
 	},
 	{
 		"date": "09/04/2024",
@@ -197,15 +219,17 @@
 		"private": false,
 		"talk": "Discover Node.js Test Runner",
 		"flag": "🇬🇧",
-		"link": "https://javascript-conference.com/london/"
+		"link": "https://javascript-conference.com/london/",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "09/04/2024",
 		"conference": "IJS London",
 		"private": false,
-		"talk": "Workshop: OWASP Top 10 Security Vulnerabilities in Node.js",
+		"talk": "OWASP Top 10 Security Vulnerabilities in Node.js",
 		"flag": "🇬🇧",
-		"link": "https://javascript-conference.com/london/"
+		"link": "https://javascript-conference.com/london/",
+		"slides": "https://docs.google.com/presentation/d/1FQEisKIWPkGM1OowAQ0E6Z1SJ6Is4j5DozJuBcwglOA"
 	},
 	{
 		"date": "07/04/2024",
@@ -213,7 +237,8 @@
 		"private": false,
 		"talk": "Creating an HTTP Server from Scratch with Node-addon-api, Libuv, and Milo",
 		"flag": "🌐",
-		"link": "https://portal.gitnation.org/contents/creating-an-http-server-from-scratch-with-node-addon-api-libuv-and-milo"
+		"link": "https://portal.gitnation.org/contents/creating-an-http-server-from-scratch-with-node-addon-api-libuv-and-milo",
+		"slides": "https://docs.google.com/presentation/d/1gwxgEz61tNrioeBUkfu79xboNSfl3532BjJOCs_DdGk"
 	},
 	{
 		"date": "07/04/2024",
@@ -221,7 +246,8 @@
 		"private": false,
 		"talk": "Mastering Node.js Test Runner",
 		"flag": "🌐",
-		"link": "https://portal.gitnation.org/contents/mastering-nodejs-test-runner-2112"
+		"link": "https://portal.gitnation.org/contents/mastering-nodejs-test-runner-2112",
+		"slides": "https://docs.google.com/presentation/d/1jqpYGbVEKmAmeAbz_FrwAc6UFCt1Qv6CacbQfj4ixVk"
 	},
 	{
 		"date": "19/10/2024",
@@ -229,7 +255,8 @@
 		"private": false,
 		"talk": "The Path to Native TypeScript",
 		"flag": "🇮🇹",
-		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2024/"
+		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2024/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
 	},
 	{
 		"date": "22/10/2024",
@@ -237,7 +264,8 @@
 		"private": false,
 		"talk": "Automating Large Codebases",
 		"flag": "🇮🇹",
-		"link": "https://conferences.codemotion.com/milan2024/it/home/"
+		"link": "https://conferences.codemotion.com/milan2024/it/home/",
+		"slides": "https://docs.google.com/presentation/d/1lgl4JpTGbT5IeHrxeZnEqWbgSiBvAqNZOsWP8V4tljQ"
 	},
 	{
 		"date": "25/10/2024",
@@ -245,7 +273,8 @@
 		"private": false,
 		"talk": "Advanced JavaScript code search: Abstract Syntax Tree analysis",
 		"flag": "🇨🇴",
-		"link": "https://medellin.cityjsconf.org/"
+		"link": "https://medellin.cityjsconf.org/",
+		"slides": "https://docs.google.com/presentation/d/1Djvj0vcE9_mIit1rnLOzIpq3KO24y88dzuMP0xkPm3M"
 	},
 	{
 		"date": "4/11/2024",
@@ -253,6 +282,7 @@
 		"private": false,
 		"talk": "The Path to Native TypeScript",
 		"flag": "🇮🇪",
-		"link": "https://www.nodeconf.eu/"
+		"link": "https://www.nodeconf.eu/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
 	}
 ]
