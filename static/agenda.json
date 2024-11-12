@@ -222,5 +222,37 @@
 		"talk": "Mastering Node.js Test Runner",
 		"flag": "🌐",
 		"link": "https://portal.gitnation.org/contents/mastering-nodejs-test-runner-2112"
+	},
+	{
+		"date": "19/10/2024",
+		"conference": "Devfest Alps 2024",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇮🇹",
+		"link": "https://gdg.community.dev/events/details/google-gdg-torino-presents-devfest-alps-2024/"
+	},
+	{
+		"date": "22/10/2024",
+		"conference": "Codemotion Milan",
+		"private": false,
+		"talk": "Automating Large Codebases",
+		"flag": "🇮🇹",
+		"link": "https://conferences.codemotion.com/milan2024/it/home/"
+	},
+	{
+		"date": "25/10/2024",
+		"conference": "CityJS Medellin",
+		"private": false,
+		"talk": "Advanced JavaScript code search: Abstract Syntax Tree analysis",
+		"flag": "🇨🇴",
+		"link": "https://medellin.cityjsconf.org/"
+	},
+	{
+		"date": "4/11/2024",
+		"conference": "NodeConf EU",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇮🇪",
+		"link": "https://www.nodeconf.eu/"
 	}
 ]
