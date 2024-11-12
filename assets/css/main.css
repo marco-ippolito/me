@@ -1,52 +1,52 @@
 html {
-  font-family: "Montserrat", sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: #000000;
-  color: #fff;
-  overflow-x: hidden;
+	background-color: #000000;
+	color: #fff;
+	overflow-x: hidden;
 }
 
 :root {
-  --border: #74747465 1px solid;
-  --border-radius: 1rem;
-  --primary-color: #1a90ff;
-  --secondary-color: #00c09e;
-  --linear-gradient: linear-gradient(
-    to right,
-    #ffebcd,
-    var(--primary-color),
-    #65f3bc,
-    var(--secondary-color),
-    #56b8df
-  );
+	--border: #74747465 1px solid;
+	--border-radius: 1rem;
+	--primary-color: #1a90ff;
+	--secondary-color: #00c09e;
+	--linear-gradient: linear-gradient(
+		to right,
+		#ffebcd,
+		var(--primary-color),
+		#65f3bc,
+		var(--secondary-color),
+		#56b8df
+	);
 }
 
 .font-big {
-  --size: 3rem;
-  font-size: calc(var(--size) * 1.5);
-  @media screen and (min-width: 768px) {
-    font-size: calc(var(--size) * 2);
-  }
-  @media screen and (min-width: 992px) {
-    font-size: calc(var(--size) * 2.5);
-  }
-  @media screen and (min-width: 1290px) {
-    font-size: calc(var(--size) * 3);
-  }
+	--size: 3rem;
+	font-size: calc(var(--size) * 1.5);
+	@media screen and (min-width: 768px) {
+		font-size: calc(var(--size) * 2);
+	}
+	@media screen and (min-width: 992px) {
+		font-size: calc(var(--size) * 2.5);
+	}
+	@media screen and (min-width: 1290px) {
+		font-size: calc(var(--size) * 3);
+	}
 }
 
 @keyframes flow {
-  0% {
-    background-position: 0 50%;
-  }
+	0% {
+		background-position: 0 50%;
+	}
 
-  50% {
-    background-position: 100% 50%;
-  }
+	50% {
+		background-position: 100% 50%;
+	}
 
-  to {
-    background-position: 0 50%;
-  }
+	to {
+		background-position: 0 50%;
+	}
 }

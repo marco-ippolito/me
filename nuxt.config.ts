@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
+
 	modules: [
 		"@unocss/nuxt",
 		[
@@ -13,11 +14,13 @@ export default defineNuxtConfig({
 		],
 		"@nuxt/image",
 	],
+
 	css: [
 		"@unocss/reset/normalize.css",
 		"@unocss/reset/eric-meyer.css",
 		"~/assets/css/main.css",
 	],
+
 	app: {
 		head: {
 			charset: "utf-8",
@@ -73,14 +76,18 @@ export default defineNuxtConfig({
 			htmlAttrs: { lang: "en" },
 		},
 	},
+
 	build: {
 		extractCSS: {
 			allChunks: true,
 		},
 	},
+
 	router: {
 		options: {
 			scrollBehaviorType: "smooth",
 		},
 	},
+
+	compatibilityDate: "2024-11-12",
 });
