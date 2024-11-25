@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@vercel/analytics':
-        specifier: ^1.4.0
-        version: 1.4.0(vue-router@4.4.5(vue@3.5.12(typescript@5.2.2)))(vue@3.5.12(typescript@5.2.2))
+        specifier: ^1.4.1
+        version: 1.4.1(vue-router@4.4.5(vue@3.5.12(typescript@5.2.2)))(vue@3.5.12(typescript@5.2.2))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -1403,8 +1403,8 @@ packages:
     peerDependencies:
       webpack: ^4 || ^5
 
-  '@vercel/analytics@1.4.0':
-    resolution: {integrity: sha512-eUwWW7l8nPJb0nJmjZuYp9o7YZ9XPj67lU9mEogaPXiFxq/SFB5DMnvQVk4aKcL8kFgotiYdDZWxdiNcWo7cgg==}
+  '@vercel/analytics@1.4.1':
+    resolution: {integrity: sha512-ekpL4ReX2TH3LnrRZTUKjHHNpNy9S1I7QmS+g/RQXoSUQ8ienzosuX7T9djZ/s8zPhBx1mpHP/Rw5875N+zQIQ==}
     peerDependencies:
       '@remix-run/react': ^2
       '@sveltejs/kit': ^1 || ^2
@@ -6035,7 +6035,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@vercel/analytics@1.4.0(vue-router@4.4.5(vue@3.5.12(typescript@5.2.2)))(vue@3.5.12(typescript@5.2.2))':
+  '@vercel/analytics@1.4.1(vue-router@4.4.5(vue@3.5.12(typescript@5.2.2)))(vue@3.5.12(typescript@5.2.2))':
     optionalDependencies:
       vue: 3.5.12(typescript@5.2.2)
       vue-router: 4.4.5(vue@3.5.12(typescript@5.2.2))
