@@ -284,5 +284,86 @@
 		"flag": "🇮🇪",
 		"link": "https://www.nodeconf.eu/",
 		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "Open Source Day 2025",
+		"date": "21/03/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇮🇹",
+		"link": "https://2025.osday.dev/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "Confoo Montreal",
+		"date": "27/02/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇨🇦",
+		"link": "https://confoo.ca/en/2025",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "JsDay 2025",
+		"date": "10/04/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇮🇹",
+		"link": "https://2025.jsday.it/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "CityJS London",
+		"date": "24/04/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇬🇧",
+		"link": "https://london.cityjsconf.org/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "Node Congress 2025",
+		"date": "17/04/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🌐",
+		"link": "https://nodecongress.com/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "JSNation 2025",
+		"date": "14/06/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇳🇱",
+		"link": "https://jsnation.com/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "Nordic.js 2025",
+		"date": "03/10/2025",
+		"private": false,
+		"talk": "Yet Another Config File: introducing node.config.json",
+		"flag": "🇸🇪",
+		"link": "https://nordicjs.com/",
+		"slides": "https://docs.google.com/presentation/d/1Vcezsx8QZLN9IXov_VG0Nj3XIG15uGnoas8L8oZWItI"
+	},
+	{
+		"conference": "IJS Munich 2025",
+		"date": "30/10/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇩🇪",
+		"link": "https://javascript-conference.com/munich/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
+	},
+	{
+		"conference": "JSConf Japan",
+		"date": "16/11/2025",
+		"private": false,
+		"talk": "The Path to Native TypeScript",
+		"flag": "🇯🇵",
+		"link": "https://jsconf.jp/",
+		"slides": "https://docs.google.com/presentation/d/1topR_Sg3rDw8tZVg6b4u2WtbNNMiH4l06DRTmRAtTLI"
 	}
 ]
